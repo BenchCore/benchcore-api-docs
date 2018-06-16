@@ -41,9 +41,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | address | query | A valid BEX Address. | Yes | string |
 
 **Responses**
@@ -65,9 +62,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | address | query | A valid BEX Address. | Yes | string |
 
 **Responses**
@@ -86,13 +80,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/accounts/delegates/fee`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
-
+none 
 **Responses**
 
 | Code | Description |
@@ -112,9 +100,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | address | query | A valid BEX Address. | Yes | string |
 | orderBy | query | A string that specifies the column by which to sort the records. | No | string |
 | limit | query | An unsigned integer that specifies the maximum number of records. | No | integer |
@@ -138,9 +123,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | body | body |  | Yes |  |
 
 **Responses**
@@ -162,9 +144,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | address | query | A valid BEX Address. | Yes | string |
 
 **Responses**
@@ -183,12 +162,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/accounts/getAllAccounts`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -209,9 +183,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | limit | query | An unsigned integer that specifies the maximum number of records. | No | integer |
 | offset | query | An unsigned integer that specified the number of records to skip. | No | integer |
 
@@ -231,12 +202,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/accounts/count`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -257,9 +223,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | id | query |  | Yes | string |
 
 **Responses**
@@ -281,9 +244,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | limit | query | An unsigned integer that specifies the maximum number of records. | No | integer |
 | orderBy | query | A string that specifies the column by which to sort the records. | No | string |
 | offset | query | An unsigned integer that specified the number of records to skip. | No | integer |
@@ -310,12 +270,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/blocks/getEpoch`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -333,12 +288,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/blocks/getHeight`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -356,12 +306,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/blocks/getNethash`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -379,12 +324,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/blocks/getFee`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -402,12 +342,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/blocks/getFees`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none. 
 
 **Responses**
 
@@ -425,12 +360,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/blocks/getMilestone`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -448,12 +378,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/blocks/getReward`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -471,12 +396,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/blocks/getSupply`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -494,12 +414,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/blocks/getStatus`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -517,12 +432,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/delegates/count`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -543,9 +453,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | q | query | A search query. | Yes | string |
 | limit | query | An unsigned integer that specifies the maximum number of records. | No | integer |
 
@@ -568,9 +475,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | publicKey | query | A valid BEX Public Key. | Yes | string |
 
 **Responses**
@@ -592,9 +496,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | publicKey | query | A valid BEX Public Key. | No | string |
 | username | query | A valid BEX Delegate username. | No | string |
 
@@ -617,9 +518,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | orderBy | query | A string that specifies the column by which to sort the records. | No | string |
 | limit | query | An unsigned integer that specifies the maximum number of records. | No | integer |
 | offset | query | An unsigned integer that specified the number of records to skip. | No | integer |
@@ -642,9 +540,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | body | body | A valid BEX delegate object. | Yes |  |
 
 **Responses**
@@ -666,9 +561,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | address | query | A valid BEX Address. | Yes | string |
 
 **Responses**
@@ -690,9 +582,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | generatorPublicKey | query |  | Yes | string |
 
 **Responses**
@@ -714,9 +603,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | address | query | A valid BEX Address. | Yes | string |
 
 **Responses**
@@ -738,9 +624,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | secret | query | A valid BEX Passphrase. | Yes | string |
 | publicKey | query | A valid BEX Public Key. | No | string |
 
@@ -763,9 +646,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | secret | query | A valid BEX Passphrase. | Yes | string |
 | publicKey | query | A valid BEX Public Key. | No | string |
 
@@ -785,12 +665,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/loader/status`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -808,12 +683,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/loader/status/sync`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -831,12 +701,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/loader/autoconfigure`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -857,9 +722,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | publicKey | query | A valid BEX Public Key. | Yes | string |
 
 **Responses**
@@ -881,9 +743,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | secret | query | A valid BEX Passphrase. | Yes | string |
 | secondSecret | query | A valid secondary BEX Passphrase. | No | string |
 | publicKey | query | A valid BEX Public Key. | No | string |
@@ -908,9 +767,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | body | body | A valid multi signature object. | Yes |  |
 
 **Responses**
@@ -932,9 +788,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | publicKey | query | A valid BEX Public Key. | Yes | string |
 
 **Responses**
@@ -956,8 +809,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | ip | query | A valid server IP. | Yes | string |
 | port | query | A valid server Port. | Yes | integer |
 
@@ -980,9 +831,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | port | query | A valid server port. | No | integer |
 | state | query | An unsigned integer that specifies the peer state. | No | integer |
 | os | query | A valid operating system. | No | string |
@@ -1007,12 +855,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /api/peers/version`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -1033,9 +876,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | address | query | A valid BEX Address. | Yes | string |
 
 **Responses**
@@ -1057,9 +897,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | body | body | A valid signature object. | Yes |  |
 
 **Responses**
@@ -1081,9 +918,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | id | query | A valid transaction ID. | Yes | string |
 
 **Responses**
@@ -1105,9 +939,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | blockId | query | An unsigned integer that specifies the block ID. | No | string |
 | limit | query | An unsigned integer that specifies the maximum number of records. | No | integer |
 | type | query | An unsigned integer that specifies the transaction type. | No | integer |
@@ -1140,9 +971,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | body | body | A valid transaction object. | Yes |  |
 
 **Responses**
@@ -1164,9 +992,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | id | query | A valid unconfirmed transaction ID. | Yes | string |
 
 **Responses**
@@ -1188,9 +1013,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | senderPublicKey | query | A valid BEX Public Key. | No | string |
 | address | query | A valid BEX Address. | No | string |
 
@@ -1210,12 +1032,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /peer/list`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -1236,9 +1053,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | ids | query | A list of block IDs. | Yes | string |
 
 **Responses**
@@ -1260,9 +1074,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | address | query | A valid BEX Address. | Yes | string |
 
 **Responses**
@@ -1284,9 +1095,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | address | query | A valid BEX Address. | Yes | string |
 
 **Responses**
@@ -1305,12 +1113,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /peer/transactions`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -1330,9 +1133,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | transactions | body | A valid transaction object. | Yes |  |
 
 **Responses**
@@ -1354,9 +1154,6 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 
 | Name | Located in | Description | Required | Type |
 | ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
 | ids | query | A list of transaction IDs. | Yes | string |
 
 **Responses**
@@ -1375,12 +1172,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /peer/height`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -1398,12 +1190,7 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 `***GET*** /peer/status`
 
 **Parameters**
-
-| Name | Located in | Description | Required | Type |
-| ---- | ---------- | ----------- | -------- | ---- |
-|  |  |  | No |  |
-|  |  |  | No |  |
-|  |  |  | No |  |
+none.
 
 **Responses**
 
@@ -1412,4 +1199,3 @@ This is a documentation for **[benchpay-v1](https://github.com/benchpay/benchpay
 | 200 | successful operation |
 | default | Unexpected error |
 
-<!-- Converted with the swagger-to-slate https://github.com/lavkumarv/swagger-to-slate -->
